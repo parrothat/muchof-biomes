@@ -1,0 +1,105 @@
+{
+  "has_precipitation": true,
+  "temperature": 0.8,
+  "downfall": 0.7,
+  "effects": {
+    "ambient_sound": "ambient.basalt_deltas.loop",
+    "mood_sound": {
+      "sound": "ambient.cave",
+      "tick_delay": 6000,
+      "offset": 8,
+      "block_search_extent": 2
+    },
+    "additions_sound": {
+      "sound": "block.azalea_leaves.hit",
+      "tick_chance": 0.0111
+    },
+    "foliage_color": -9524649,
+    "grass_color": -8536730,
+    "sky_color": -3546658,
+    "fog_color": -4664111,
+    "water_color": -13383988,
+    "water_fog_color": -15038580
+  },
+  "spawners": {
+    "monster": [],
+    "creature": [
+      {
+        "type": "fox",
+        "weight": 6,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "rabbit",
+        "weight": 4,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "turtle",
+        "weight": 2,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_underground"
+    ],
+    [
+      "minecraft:forest_rock"
+    ],
+    [],
+    [],
+    [],
+    [
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_medium",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper",
+      "minecraft:underwater_magma",
+      "minecraft:ore_emerald"
+    ],
+    [],
+    [],
+    [
+      "muchof_biomes:boreal_coast_tree",
+      "minecraft:patch_grass_taiga_2",
+      "minecraft:brown_mushroom_taiga",
+      "minecraft:red_mushroom_taiga",
+      "minecraft:patch_grass_forest",
+      "minecraft:patch_sugar_cane",
+      "minecraft:patch_pumpkin"
+    ],
+    []
+  ]
+}

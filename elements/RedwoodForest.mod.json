@@ -1,0 +1,174 @@
+{
+  "_fv": 79,
+  "_type": "biome",
+  "definition": {
+    "name": "Redwood Forest",
+    "groundBlock": {
+      "value": "Blocks.GRASS"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.DIRT#0"
+    },
+    "underwaterBlock": {
+      "value": "Blocks.GRAVEL"
+    },
+    "airColor": {
+      "value": -7822682,
+      "falpha": 0.0
+    },
+    "fogColor": {
+      "value": -9534849,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -12808636,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -13665740,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -14393702,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -14924437,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": "ambient.crimson_forest.loop"
+    },
+    "additionsSound": {
+      "value": "ambient.basalt_deltas.additions"
+    },
+    "music": {
+      "value": "music.overworld.old_growth_taiga"
+    },
+    "moodSound": {
+      "value": "ambient.basalt_deltas.mood"
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "ASH"
+    },
+    "particlesProbability": 0.5,
+    "rainingPossibility": 0.8,
+    "temperature": 0.5,
+    "spawnBiome": true,
+    "spawnInCaves": false,
+    "spawnBiomeNether": false,
+    "genTemperature": {
+      "min": 0.1,
+      "max": 0.9
+    },
+    "genHumidity": {
+      "min": 0.5,
+      "max": 1.0
+    },
+    "genContinentalness": {
+      "min": 0.0,
+      "max": 0.9
+    },
+    "genErosion": {
+      "min": -0.3,
+      "max": 0.4
+    },
+    "genWeirdness": {
+      "min": -0.2,
+      "max": 0.5
+    },
+    "treesPerChunk": 5,
+    "vanillaTreeType": "Mega spruce trees",
+    "treeType": 1,
+    "minHeight": 20,
+    "treeStem": {
+      "value": "Blocks.LOG#1"
+    },
+    "treeBranch": {
+      "value": "Blocks.LEAVES#1"
+    },
+    "treeVines": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "TaigaGrassAndMushrooms",
+      "TaigaLargeFerns",
+      "ForestGrass",
+      "TaigaRocks"
+    ],
+    "spawnStronghold": true,
+    "spawnMineshaft": false,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": true,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": false,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "NONE",
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityWolf"
+        },
+        "minGroup": 1,
+        "maxGroup": 3,
+        "weight": 8,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityFox"
+        },
+        "minGroup": 1,
+        "maxGroup": 2,
+        "weight": 6,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntitySheep"
+        },
+        "minGroup": 2,
+        "maxGroup": 4,
+        "weight": 6,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityCow"
+        },
+        "minGroup": 2,
+        "maxGroup": 4,
+        "weight": 6,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityPig"
+        },
+        "minGroup": 1,
+        "maxGroup": 3,
+        "weight": 6,
+        "spawnType": "creature"
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "muchof_biomes:redwood_forest",
+    "muchof_biomes:red_tundra",
+    "muchof_biomes:snowy_lowlands"
+  ]
+}

@@ -1,0 +1,16 @@
+/locate biome muchof_biomes:foggy_forest
+/tp @s -3913 -61 -5495
+/locate biome muchof_biomes:foggy_forest
+/tp @s -423 -54 -244
+/tp -422.42 100 -243.38
+/locate biome muchof_biomes:summer_vacation
+/tp @s 1766 320 2933
+/locate biome muchof_biomes:foggy_forest
+/tp @s 881 126 4812
+/locate biome muchof_biomes:snowy_lowlands
+/tp @s -3341 105 1745
+/locate biome muchof_biomes:redwood_forest
+/tp @s -4677 296 -1150
+/locate biome muchof_biomes:boreal_coast
+/locate biome muchof_biomes:red_tundra
+/tp @s -2957 59 -2390

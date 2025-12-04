@@ -1,0 +1,227 @@
+{
+  "mod_elements": [
+    {
+      "name": "FoggyForest",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "foggy_forest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/muchof_biomes/worldgen/configured_feature/foggy_forest_tree.json",
+          "src/main/resources/data/muchof_biomes/worldgen/biome/foggy_forest.json",
+          "src/main/resources/data/muchof_biomes/worldgen/placed_feature/foggy_forest_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "AutumnOak",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "autumn_oak",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/muchof_biomes/worldgen/biome/autumn_oak.json",
+          "src/main/resources/data/muchof_biomes/worldgen/placed_feature/autumn_oak_tree.json",
+          "src/main/resources/data/muchof_biomes/worldgen/configured_feature/autumn_oak_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "SummerVacation",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "summer_vacation",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/muchof_biomes/worldgen/biome/summer_vacation.json",
+          "src/main/resources/data/muchof_biomes/worldgen/configured_feature/summer_vacation_tree.json",
+          "src/main/resources/data/muchof_biomes/worldgen/placed_feature/summer_vacation_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "SnowyLowlands",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snowy_lowlands",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/muchof_biomes/worldgen/biome/snowy_lowlands.json"
+        ]
+      }
+    },
+    {
+      "name": "RedwoodForest",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redwood_forest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/muchof_biomes/worldgen/placed_feature/redwood_forest_tree.json",
+          "src/main/resources/data/muchof_biomes/worldgen/configured_feature/redwood_forest_tree.json",
+          "src/main/resources/data/muchof_biomes/worldgen/biome/redwood_forest.json"
+        ]
+      }
+    },
+    {
+      "name": "RedTundra",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_tundra",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/muchof_biomes/worldgen/biome/red_tundra.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldenSteppe",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_steppe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/muchof_biomes/worldgen/biome/golden_steppe.json"
+        ]
+      }
+    },
+    {
+      "name": "Altiplano",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "altiplano",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/muchof_biomes/worldgen/biome/altiplano.json"
+        ]
+      }
+    },
+    {
+      "name": "ParrotJungle",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "parrot_jungle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/muchofbiomes/world/features/treedecorators/ParrotJungleFruitDecorator.java",
+          "src/main/resources/data/muchof_biomes/worldgen/biome/parrot_jungle.json",
+          "src/main/java/net/mcreator/muchofbiomes/world/features/treedecorators/ParrotJungleLeaveDecorator.java",
+          "src/main/resources/data/muchof_biomes/worldgen/placed_feature/parrot_jungle_tree.json",
+          "src/main/java/net/mcreator/muchofbiomes/world/features/treedecorators/ParrotJungleTrunkDecorator.java",
+          "src/main/resources/data/muchof_biomes/worldgen/configured_feature/parrot_jungle_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "BorealCoast",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boreal_coast",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/muchof_biomes/worldgen/placed_feature/boreal_coast_tree.json",
+          "src/main/resources/data/muchof_biomes/worldgen/biome/boreal_coast.json",
+          "src/main/resources/data/muchof_biomes/worldgen/configured_feature/boreal_coast_tree.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BIOMES:minecraft:has_structure/mineshaft": [
+      "~CUSTOM:SnowyLowlands",
+      "~CUSTOM:AutumnOak",
+      "~CUSTOM:FoggyForest"
+    ],
+    "BIOMES:minecraft:has_structure/swamp_hut": [
+      "~CUSTOM:FoggyForest"
+    ],
+    "BIOMES:minecraft:has_structure/village_savanna": [
+      "~CUSTOM:SummerVacation",
+      "~CUSTOM:AutumnOak"
+    ],
+    "BIOMES:minecraft:has_structure/shipwreck": [
+      "~CUSTOM:SummerVacation"
+    ],
+    "BIOMES:minecraft:has_structure/shipwreck_beached": [
+      "~CUSTOM:SummerVacation"
+    ],
+    "BIOMES:minecraft:has_structure/buried_treasure": [
+      "~CUSTOM:SnowyLowlands",
+      "~CUSTOM:SummerVacation"
+    ],
+    "BIOMES:minecraft:has_structure/igloo": [
+      "~CUSTOM:RedTundra",
+      "~CUSTOM:SnowyLowlands"
+    ],
+    "BIOMES:minecraft:has_structure/stronghold": [
+      "~CUSTOM:RedTundra",
+      "~CUSTOM:RedwoodForest",
+      "~CUSTOM:SnowyLowlands"
+    ],
+    "BIOMES:minecraft:has_structure/village_snowy": [
+      "~CUSTOM:SnowyLowlands"
+    ],
+    "BIOMES:minecraft:has_structure/pillager_outpost": [
+      "~CUSTOM:RedwoodForest"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "biome.muchof_biomes.foggy_forest": "Foggy Forest",
+      "biome.muchof_biomes.autumn_oak": "Autumn Oak",
+      "biome.muchof_biomes.summer_vacation": "Summer Vacation",
+      "biome.muchof_biomes.snowy_lowlands": "Snowy Lowlands",
+      "biome.muchof_biomes.redwood_forest": "Redwood Forest",
+      "biome.muchof_biomes.red_tundra": "Red Tundra",
+      "biome.muchof_biomes.golden_steppe": "Golden Steppe",
+      "biome.muchof_biomes.altiplano": "Altiplano",
+      "biome.muchof_biomes.parrot_jungle": "Parrot Jungle",
+      "biome.muchof_biomes.boreal_coast": "Boreal Coast"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/muchofbiomes/init/MuchofBiomesModBiomes.java",
+      "src/main/java/net/mcreator/muchofbiomes/mixin/NoiseGeneratorSettingsMixin.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/muchof_biomes.mixins.json",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/java/net/mcreator/muchofbiomes/MuchofBiomesMod.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "muchof_biomes",
+    "modName": "Much\u0027of Biomes",
+    "version": "1.1.0",
+    "author": "CorrelationWX",
+    "websiteURL": "modrinth.com/project/muchof-biomes",
+    "license": "MIT License",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "a mod that adds more biomes to the game",
+    "modElementsPackage": "net.mcreator.muchofbiomes"
+  },
+  "mcreatorVersion": 202500345720
+}

@@ -1,0 +1,180 @@
+{
+  "_fv": 79,
+  "_type": "biome",
+  "definition": {
+    "name": "Autumn Oak",
+    "groundBlock": {
+      "value": "Blocks.GRASS"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.DIRT#0"
+    },
+    "underwaterBlock": {
+      "value": "Blocks.GRAVEL"
+    },
+    "airColor": {
+      "value": -7703198,
+      "falpha": 0.0
+    },
+    "fogColor": {
+      "value": -3628165,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -3702998,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -2855417,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -14008442,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -14931374,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": "ambient.crimson_forest.loop"
+    },
+    "additionsSound": {
+      "value": "ambient.crimson_forest.additions"
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": "ambient.crimson_forest.mood"
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "ASH"
+    },
+    "particlesProbability": 0.5,
+    "rainingPossibility": 0.5,
+    "temperature": 0.5,
+    "spawnBiome": true,
+    "spawnInCaves": false,
+    "spawnBiomeNether": false,
+    "genTemperature": {
+      "min": 0.3,
+      "max": 0.9
+    },
+    "genHumidity": {
+      "min": 0.2,
+      "max": 0.8
+    },
+    "genContinentalness": {
+      "min": -0.2,
+      "max": 1.0
+    },
+    "genErosion": {
+      "min": -0.4,
+      "max": 0.7
+    },
+    "genWeirdness": {
+      "min": -0.8,
+      "max": 0.8
+    },
+    "treesPerChunk": 4,
+    "vanillaTreeType": "Default",
+    "treeType": 0,
+    "minHeight": 6,
+    "treeStem": {
+      "value": ""
+    },
+    "treeBranch": {
+      "value": ""
+    },
+    "treeVines": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "FrozenTopLayer"
+    ],
+    "spawnStronghold": false,
+    "spawnMineshaft": true,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "savanna",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": false,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "NONE",
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntitySheep"
+        },
+        "minGroup": 2,
+        "maxGroup": 4,
+        "weight": 10,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityRabbit"
+        },
+        "minGroup": 2,
+        "maxGroup": 3,
+        "weight": 6,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityLlama"
+        },
+        "minGroup": 1,
+        "maxGroup": 2,
+        "weight": 3,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityPig"
+        },
+        "minGroup": 2,
+        "maxGroup": 3,
+        "weight": 6,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityChicken"
+        },
+        "minGroup": 1,
+        "maxGroup": 2,
+        "weight": 5,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityFox"
+        },
+        "minGroup": 1,
+        "maxGroup": 2,
+        "weight": 8,
+        "spawnType": "creature"
+      }
+    ]
+  }
+}
